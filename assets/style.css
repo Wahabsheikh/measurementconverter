@@ -1,0 +1,63 @@
+#head {
+    background: linear-gradient(rgba(106, 78, 231, 0.5), rgba(95, 8, 235, 0.5)), url(../images/sasun-bughdaryan-X4VwfPzy_2o-unsplash.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+
+
+}
+
+#head .calculatBody {
+    border: 2px solid wheat;
+    padding: 20px 30px;
+
+
+}
+
+#head .calculatBody h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: wheat;
+
+
+}
+
+#head .calculatBody .sellectFormat {
+    width: 100%;
+    height: 300px;
+}
+
+#head .calculatBody .sellectOption input,
+#head .calculatBody .resultArea input {
+    background-color: transparent;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid wheat;
+    color: wheat;
+    margin-bottom: 20px;
+
+}
+
+#head .calculatBody .sellectOption select,
+#head .calculatBody .resultArea select {
+    background-color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid wheat;
+
+}
+
+#head .calculatBody .sellectOption .form-select:hover,
+#head .calculatBody .resultArea .form-select:hover {
+    background-color: black;
+    color: white;
+
+}
